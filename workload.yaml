@@ -9,6 +9,6 @@ metadata:
 spec:
   source:
     git:
-      url: https://github.com/mshahat/PasswordPusher
+      url: https://github.com/tanzu-solutions-engineering/PasswordPusher
       ref:
         branch: master
