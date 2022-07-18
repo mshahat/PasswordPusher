@@ -6,6 +6,7 @@ metadata:
     Password Pusher App 
   tags:
     - app-accelerator
+    - ruby
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=pwpusher-ruby-web-app'
 spec:
