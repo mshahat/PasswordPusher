@@ -97,7 +97,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :production do
   gem 'rack-timeout'
   gem 'rack-throttle'
-  gem 'pg'
   gem 'sentry-ruby'
   gem 'sentry-rails', '>= 5.0.2'
   gem 'sqlite3'
