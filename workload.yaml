@@ -7,6 +7,18 @@ metadata:
     apps.tanzu.vmware.com/has-tests: "true"
     app.kubernetes.io/part-of: pwpusher-ruby-web-app
 spec:
+  build:
+    env:
+      - name: RAILS_SERVE_STATIC_FILES
+        value: true
+  env:
+    - name: RAILS_SERVE_STATIC_FILES
+      value: true
+    - name: BPE_RAILS_SERVE_STATIC_FILES
+      value: true
+  params:
+    - name: clusterbuilder
+      value: tesco
   source:
     git:
       url: https://github.com/tanzu-solutions-engineering/PasswordPusher
