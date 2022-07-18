@@ -1,3 +1,0 @@
----
-BUNDLE_WITHOUT: "development:private:test"
-BUNDLE_DEPLOYMENT: "false"

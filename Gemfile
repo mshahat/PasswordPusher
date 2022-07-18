@@ -90,6 +90,8 @@ gem 'route_translator', '>= 12.1.0'
 gem 'translation'
 gem 'mail_form', '>= 1.9.0'
 gem 'net-smtp'
+gem 'sqlite3'
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
@@ -99,10 +101,4 @@ group :production do
   gem 'rack-throttle'
   gem 'sentry-ruby'
   gem 'sentry-rails', '>= 5.0.2'
-  gem 'pg'
-  gem 'sqlite3'
-end
-
-group :private do
-  gem 'sqlite3'
 end
