@@ -1,5 +1,5 @@
 [[requires]]
   name = "node"
-  version = "~10"
+  version = "~12"
 [requires.metadata]
   launch = true
