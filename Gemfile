@@ -100,6 +100,7 @@ group :production do
   gem 'sentry-ruby'
   gem 'sentry-rails', '>= 5.0.2'
   gem 'pg'
+  gem 'sqlite3'
 end
 
 group :private do
