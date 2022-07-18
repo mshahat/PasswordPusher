@@ -13,6 +13,8 @@ spec:
         value: 5100
       - name: RAILS_SERVE_STATIC_FILES
         value: true
+      - name: RAILS_ENV
+        value: production
   env:
     - name: PORT
       value: 5100
@@ -20,6 +22,8 @@ spec:
       value: true
     - name: BPE_RAILS_SERVE_STATIC_FILES
       value: true
+    - name: RAILS_ENV
+      value: production
   params:
     - name: clusterBuilder
       value: tesco
