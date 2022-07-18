@@ -23,4 +23,4 @@ spec:
     git:
       url: https://github.com/mshahat/PasswordPusher
       ref:
-        branch: master
+        branch: main
