@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Password Pusher
+  description: Password Pusher App 
+  tags:
+    - app-accelerator
+    - Ruby
+    - Rails
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=pwpusher-ruby-web-app'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
+
