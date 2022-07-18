@@ -21,7 +21,7 @@ spec:
     - name: BPE_RAILS_SERVE_STATIC_FILES
       value: true
   params:
-    - name: clusterbuilder
+    - name: clusterBuilder
       value: tesco
   source:
     git:
