@@ -99,7 +99,7 @@ group :production do
   gem 'rack-throttle'
   gem 'sentry-ruby'
   gem 'sentry-rails', '>= 5.0.2'
-  gem 'sqlite3'
+  gem 'pg'
 end
 
 group :private do
