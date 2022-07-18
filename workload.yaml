@@ -19,8 +19,6 @@ spec:
   params:
     - name: clusterbuilder
       value: tesco
-    - name: gitops_ssh_secret
-      value: github-ssh
   source:
     git:
       url: https://github.com/tanzu-solutions-engineering/PasswordPusher
