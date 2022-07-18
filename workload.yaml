@@ -21,6 +21,6 @@ spec:
       value: tesco
   source:
     git:
-      url: https://github.com/tanzu-solutions-engineering/PasswordPusher
+      url: https://github.com/mshahat/PasswordPusher
       ref:
         branch: master
