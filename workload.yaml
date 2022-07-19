@@ -7,9 +7,6 @@ metadata:
     apps.tanzu.vmware.com/has-tests: "true"
     app.kubernetes.io/part-of: pwpusher-ruby-web-app
 spec:
-  env:
-    - name: PORT
-      value: 5100
   params:
     - name: clusterBuilder
       value: tesco
